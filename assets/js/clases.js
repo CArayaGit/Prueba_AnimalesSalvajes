@@ -26,3 +26,13 @@ export class Animal {
 
 //export(Animal)
 
+class Leon extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido, rugir){
+        super(nombre, edad, img, comentarios, sonido);
+    }
+    
+    sonidoLeon() {
+        let rugir = this.getSonido
+    }
+};
+
