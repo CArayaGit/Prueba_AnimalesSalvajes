@@ -26,8 +26,8 @@ export class Animal {
 
 //export(Animal)
 
-class Leon extends Animal {
-    constructor(nombre, edad, img, comentarios, sonido, rugir){
+export class Leon extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido){
         super(nombre, edad, img, comentarios, sonido);
     }
     
@@ -36,3 +36,42 @@ class Leon extends Animal {
     }
 };
 
+export class Lobo extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido){
+        super(nombre, edad, img, comentarios, sonido);
+    }
+    
+    sonidoLobo() {
+        let aullar = this.getSonido
+    }
+};
+
+export class Oso extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido){
+        super(nombre, edad, img, comentarios, sonido);
+    }
+    
+    sonidoOso() {
+        let grunir = this.getSonido
+    }
+};
+
+export class Serpiente extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido){
+        super(nombre, edad, img, comentarios, sonido);
+    }
+    
+    sonidoSerpiente() {
+        let sisear = this.getSonido
+    }
+};
+
+export class Aguila extends Animal {
+    constructor(nombre, edad, img, comentarios, sonido){
+        super(nombre, edad, img, comentarios, sonido);
+    }
+    
+    sonidoAguila() {
+        let chillar = this.getSonido
+    }
+};
